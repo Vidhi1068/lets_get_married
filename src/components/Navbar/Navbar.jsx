@@ -85,7 +85,7 @@ function Navbar() {
             variant={"link"}
             href={"#"}
           >
-            Sign In
+            Log In
           </Button>
           <Button
             as={"a"}
