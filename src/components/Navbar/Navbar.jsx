@@ -60,8 +60,8 @@ function Navbar() {
             color={useColorModeValue("gray.800", "white")}
           >
             <Image
-              src="./logo/logoWedding.png"
-              height={16}
+              src="./logo/logowed.svg"
+              height={10}
               w={100}
               alt="logo"
             />
@@ -79,11 +79,16 @@ function Navbar() {
           spacing={6}
         >
           <Button
-            as={"a"}
-            fontSize={"sm"}
-            fontWeight={400}
-            variant={"link"}
-            href={"#"}
+             as={"a"}
+             display={{ base: "none", md: "inline-flex" }}
+             fontSize={"sm"}
+             fontWeight={600}
+             color={"white"}
+             bg={"pink.400"}
+             href={"#"}
+             _hover={{
+               bg: "pink.300",
+             }}
           >
             Log In
           </Button>
@@ -300,11 +305,11 @@ const NAV_ITEMS = [
     ],
   },
   {
-    label: "Learn Design",
+    label: "Home",
     href: "#",
   },
   {
-    label: "Hire Designers",
+    label: "About Us",
     href: "#",
   },
 ];
