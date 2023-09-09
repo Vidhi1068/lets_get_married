@@ -12,11 +12,17 @@ const routes = [
     element: (
       <Suspense fallback={<div>Loading...</div>}>
         <Navbar />
-        <Login/>
       </Suspense>
     ),
   },
-  
+  {
+    path: "/login",
+    element: (
+      <Suspense fallback={<div>Loading...</div>}>
+        <Login />
+      </Suspense>
+    ),
+  },
 ];
 
 export default routes;
