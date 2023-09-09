@@ -59,12 +59,7 @@ function Navbar() {
             fontFamily={"heading"}
             color={useColorModeValue("gray.800", "white")}
           >
-            <Image
-              src="./logo/logowed.svg"
-              height={10}
-              w={100}
-              alt="logo"
-            />
+            <Image src="./logo/logowed.svg" height={10} w={100} alt="logo" />
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
@@ -79,16 +74,16 @@ function Navbar() {
           spacing={6}
         >
           <Button
-             as={"a"}
-             display={{ base: "none", md: "inline-flex" }}
-             fontSize={"sm"}
-             fontWeight={600}
-             color={"white"}
-             bg={"pink.400"}
-             href={"#"}
-             _hover={{
-               bg: "pink.300",
-             }}
+            as={"a"}
+            display={{ base: "none", md: "inline-flex" }}
+            fontSize={"sm"}
+            fontWeight={600}
+            color={"white"}
+            bg={"pink.400"}
+            href={"#"}
+            _hover={{
+              bg: "pink.300",
+            }}
           >
             Log In
           </Button>
